@@ -1,20 +1,22 @@
-PLC NUTRITION - VERSÃO DE PRODUÇÃO
+PLC NUTRITION — SITE PARA PUBLICAÇÃO
 
 Estrutura:
 - index.html
 - assets/css/styles.css
 - assets/js/main.js
-- assets/img/delivery-dois-palito.webp
-- assets/img/delivery-dois-palito.png
-- assets/img/og-cover.jpg
+- assets/img/ imagens usadas no site
+- _redirects para Netlify
 - robots.txt
-- _redirects
 
-Links configurados:
-- Instagram: https://www.instagram.com/plcnutrition/
-- Facebook: https://www.facebook.com/plcnutrition/?locale=pt_BR
-- WhatsApp: https://wa.me/5513988229261
+Como publicar no Netlify:
+1. Extraia este ZIP.
+2. Envie a pasta para um repositório no GitHub.
+3. No Netlify, escolha Add new site > Import an existing project.
+4. Selecione o repositório.
+5. Build command: deixe em branco.
+6. Publish directory: deixe como / ou raiz do projeto.
 
-Atenção:
-Troque o número do WhatsApp no index.html se a PLC Nutrition usar outro número oficial.
-Para substituir imagens de produtos, salve as imagens em assets/img/produtos/ e atualize os cards no index.html.
+IMPORTANTE:
+- Para alterar o número do WhatsApp, edite assets/js/main.js na variável WHATSAPP_NUMBER.
+- Para alterar Facebook/Instagram, edite os links no index.html.
+- Este site é estático, pronto para Netlify, GitHub Pages, Vercel ou hospedagem convencional.
