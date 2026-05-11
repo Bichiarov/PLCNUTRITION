@@ -1,169 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PLC Nutrition | Suplementos Premium</title>
-  <meta name="description" content="PLC Nutrition: suplementos premium para quem treina pesado. Whey, creatina, pré-treino, termogênicos e combos com atendimento pelo WhatsApp." />
-  <meta property="og:title" content="PLC Nutrition | Suplementos Premium" />
-  <meta property="og:description" content="Suplementos premium para quem treina pesado. Produtos PLC Nutrition, entrega, WhatsApp, Instagram e Facebook." />
-  <meta property="og:image" content="assets/img/logo-plc-circular.png" />
-  <link rel="icon" href="assets/img/logo-plc-circular.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PLC Nutrition - suplementos premium para quem treina pesado.">
+  <title>PLC Nutrition</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <div class="topbar">🚚 FRETE GRÁTIS PARA TODO O BRASIL NAS COMPRAS ACIMA DE R$ 199,90</div>
 
-  <header class="site-header" id="topo">
-    <div class="container header-inner">
-      <a class="brand" href="#topo" aria-label="PLC Nutrition">
-        <img src="assets/img/logo-plc-circular.webp" alt="Logo PLC Nutrition" />
-        <span>PLC <b>Nutrition</b></span>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">
+        <img src="assets/img/logo-round.png" alt="PLC Nutrition">
       </a>
-      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
-      <nav class="nav">
+      <nav class="main-nav">
+        <a href="#inicio">Início</a>
         <a href="#produtos">Produtos</a>
+        <a href="#categorias">Categorias</a>
         <a href="#promocoes">Promoções</a>
         <a href="#sobre">Sobre nós</a>
         <a href="#contato">Contato</a>
       </nav>
       <div class="header-actions">
-        <label class="search"><input type="search" placeholder="Buscar produtos..." /><span>⌕</span></label>
-        <a class="btn btn-whatsapp" data-whatsapp href="#">WhatsApp</a>
-        <span class="cart">🛒<i>0</i></span>
+        <div class="search-box">
+          <input type="text" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+          <span>🔍</span>
+        </div>
+        <a class="wa-link" href="https://wa.me/5511999999999" target="_blank" rel="noopener">💬 WhatsApp</a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero section-dark">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Produtos de alta performance</p>
-          <h1>Suplementos <span>Premium</span> para quem treina pesado</h1>
-          <p class="lead">Whey, creatina, pré-treino, termogênicos e combos PLC Nutrition com atendimento rápido e visual de marca forte.</p>
-          <div class="badges">
-            <div>🛡️ <strong>Produtos</strong><small>originais</small></div>
-            <div>💪 <strong>Desempenho</strong><small>e resultados</small></div>
-            <div>✅ <strong>Confiança</strong><small>de quem treina</small></div>
-          </div>
-          <div class="hero-buttons">
-            <a class="btn btn-gold" data-whatsapp href="#">Compre agora</a>
-            <a class="btn btn-outline" href="#produtos">Ver produtos</a>
-          </div>
-          <p class="safe">🔒 Compra 100% segura</p>
+    <section id="inicio" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">SUPLEMENTOS</p>
+        <h1><span>PREMIUM</span><br>PARA QUEM TREINA PESADO</h1>
+        <div class="hero-points">
+          <div><strong>Produtos</strong><span>de alta qualidade</span></div>
+          <div><strong>Desempenho</strong><span>e resultados</span></div>
+          <div><strong>Confiança</strong><span>de quem treina</span></div>
         </div>
-        <div class="hero-products">
-          <div class="product-lineup">
-            <img src="assets/img/whey-baunilha.webp" alt="Whey 100% sabor baunilha" />
-            <img src="assets/img/whey-chocolate.webp" alt="Whey 100% sabor chocolate" />
-            <img src="assets/img/whey-morango.webp" alt="Whey 100% sabor morango" />
-            <img src="assets/img/poster-creatina-performance.webp" alt="Creatina PLC Nutrition" />
-          </div>
-        </div>
+        <a class="btn btn-gold" href="#produtos">Compre agora</a>
+        <p class="secure">🔒 Compra 100% segura</p>
+      </div>
+      <div class="hero-products">
+        <img src="assets/img/whey-baunilha.png" alt="Whey 100% baunilha">
+        <img src="assets/img/whey-chocolate.png" alt="Whey 100% chocolate">
+        <img src="assets/img/whey-morango.png" alt="Whey 100% morango">
+        <img src="assets/img/creatina-promo.png" alt="Creatina Power">
       </div>
     </section>
 
-    <section class="promo-duo container" id="promocoes">
-      <article class="promo-card image-card"><img src="assets/img/poster-treino-rendendo.webp" alt="Seu treino não está rendendo como deveria?" /></article>
-      <article class="promo-card image-card"><img src="assets/img/poster-creatina-performance.webp" alt="Creatina é a base da performance" /></article>
+    <section class="promo-grid container" id="promocoes">
+      <article class="promo-card image-card">
+        <img src="assets/img/banner-treino.png" alt="Seu treino não está rendendo como deveria?">
+      </article>
+      <article class="promo-card image-card">
+        <img src="assets/img/creatina-promo.png" alt="Creatina é a base da performance">
+      </article>
     </section>
 
-    <section class="categories container">
-      <a class="cat-card" href="#produtos"><img src="assets/img/poster-tormenta-energia.webp" alt="Tormenta pré-treino"><div><h3>Pré-treinos</h3><p>Energia e foco explosivos</p></div></a>
-      <a class="cat-card" href="#produtos"><img src="assets/img/poster-creatina-beneficios.webp" alt="Creatina"><div><h3>Creatina</h3><p>Força, resistência e recuperação</p></div></a>
-      <a class="cat-card" href="#produtos"><img src="assets/img/poster-diavel-termogenico.webp" alt="Diavel termogênico"><div><h3>Termogênicos</h3><p>Cafeína, L-carnitina e cromo</p></div></a>
-      <a class="cat-card" href="#produtos"><img src="assets/img/poster-combo-performance.webp" alt="Combo performance"><div><h3>Combos</h3><p>Resultados completos e reais</p></div></a>
-    </section>
-
-    <section class="products-section container" id="produtos">
-      <div class="section-title"><span></span><h2>Produtos em destaque</h2><span></span></div>
+    <section id="produtos" class="container products-section">
+      <h2 class="section-title">Produtos em destaque</h2>
       <div class="products-grid">
         <article class="product-card">
-          <img src="assets/img/whey-baunilha.webp" alt="Whey 100% sabor baunilha" />
-          <div class="product-info"><h3>Whey 100%</h3><p>Sabor Baunilha • 900g</p><strong>R$ 119,90</strong><small>ou 6x de R$ 19,98</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
+          <div class="product-img-wrap"><img class="product-img" src="assets/img/whey-baunilha.png" alt="Whey 100% sabor baunilha"></div>
+          <h3>Whey 100%</h3>
+          <p class="subtitle">Sabor baunilha • 900g</p>
+          <p class="price">R$ 119,90</p>
+          <p class="installments">ou 6x de R$ 19,98</p>
+          <a class="btn btn-outline" href="https://wa.me/5511999999999" target="_blank" rel="noopener">Comprar</a>
         </article>
         <article class="product-card">
-          <img src="assets/img/whey-chocolate.webp" alt="Whey 100% sabor chocolate" />
-          <div class="product-info"><h3>Whey 100%</h3><p>Sabor Chocolate • 900g</p><strong>R$ 119,90</strong><small>ou 6x de R$ 19,98</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
+          <div class="product-img-wrap"><img class="product-img" src="assets/img/whey-chocolate.png" alt="Whey 100% sabor chocolate"></div>
+          <h3>Whey 100%</h3>
+          <p class="subtitle">Sabor chocolate • 900g</p>
+          <p class="price">R$ 119,90</p>
+          <p class="installments">ou 6x de R$ 19,98</p>
+          <a class="btn btn-outline" href="https://wa.me/5511999999999" target="_blank" rel="noopener">Comprar</a>
         </article>
         <article class="product-card">
-          <img src="assets/img/whey-morango.webp" alt="Whey 100% sabor morango" />
-          <div class="product-info"><h3>Whey 100%</h3><p>Sabor Morango • 900g</p><strong>R$ 119,90</strong><small>ou 6x de R$ 19,98</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
+          <div class="product-img-wrap"><img class="product-img" src="assets/img/whey-morango.png" alt="Whey 100% sabor morango"></div>
+          <h3>Whey 100%</h3>
+          <p class="subtitle">Sabor morango • 900g</p>
+          <p class="price">R$ 119,90</p>
+          <p class="installments">ou 6x de R$ 19,98</p>
+          <a class="btn btn-outline" href="https://wa.me/5511999999999" target="_blank" rel="noopener">Comprar</a>
         </article>
         <article class="product-card">
-          <img src="assets/img/poster-creatina-performance.webp" alt="Creatina 300g" />
-          <div class="product-info"><h3>Creatina 300g</h3><p>100% pura • Matéria-prima importada</p><strong>R$ 79,99</strong><small>Força, potência e performance</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
-        </article>
-        <article class="product-card">
-          <img src="assets/img/poster-tormenta-energia.webp" alt="Pré-treino Tormenta" />
-          <div class="product-info"><h3>Tormenta 300g</h3><p>Frutas vermelhas • 3g creatina na dose</p><strong>R$ 79,00</strong><small>ou 3x de R$ 26,33</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
-        </article>
-        <article class="product-card">
-          <img src="assets/img/poster-diavel-termogenico.webp" alt="Termogênico PLC Nutrition" />
-          <div class="product-info"><h3>Termogênico 60 Caps</h3><p>Cafeína + L-carnitina + Cromo</p><strong>R$ 75,99</strong><small>ou 3x de R$ 26,66</small><a class="btn btn-gold" data-whatsapp href="#">Comprar</a></div>
+          <div class="product-img-wrap"><img class="product-img" src="assets/img/creatina-promo.png" alt="Creatina Power 300g"></div>
+          <h3>Creatina Power</h3>
+          <p class="subtitle">300g • 100% pura</p>
+          <p class="price">R$ 89,90</p>
+          <p class="installments">ou 6x de R$ 14,98</p>
+          <a class="btn btn-outline" href="https://wa.me/5511999999999" target="_blank" rel="noopener">Comprar</a>
         </article>
       </div>
     </section>
 
-    <section class="campaigns container">
-      <img src="assets/img/poster-combo-performance.webp" alt="Combo Performance PLC Nutrition" />
-      <img src="assets/img/poster-creatina-beneficios.webp" alt="Power Creatine benefícios" />
-      <img src="assets/img/poster-creatina-forca-real.webp" alt="Força real não se discute" />
-    </section>
-
-    <section class="trust container" id="sobre">
-      <div class="trust-image"><img src="assets/img/foto-prateleira-whey.webp" alt="PLC Nutrition produtos em prateleira" /></div>
+    <section id="sobre" class="container trust-section">
+      <div class="trust-image">
+        <img src="assets/img/pessoa-whey.png" alt="Pessoa segurando whey PLC Nutrition">
+      </div>
       <div class="trust-copy">
-        <p class="eyebrow">Confiança que você pode ver</p>
-        <h2>PLC Nutrition é mais que uma loja de suplementos.</h2>
-        <p>Somos praticantes, entendemos sua jornada e trabalhamos com produtos de qualidade para ajudar você a alcançar seus objetivos com força, disciplina e constância.</p>
-        <div class="trust-icons">
-          <div>✅<strong>Produtos originais</strong></div>
-          <div>🎧<strong>Atendimento especializado</strong></div>
-          <div>🚚<strong>Envio rápido e seguro</strong></div>
+        <h2>Confiança que você pode ver.</h2>
+        <p>A PLC Nutrition é mais que uma loja de suplementos. Somos praticantes, entendemos sua jornada e oferecemos apenas produtos de qualidade comprovada para te ajudar a alcançar seus objetivos.</p>
+        <div class="trust-items">
+          <div><strong>Produtos</strong><span>originais</span></div>
+          <div><strong>Atendimento</strong><span>especializado</span></div>
+          <div><strong>Envio rápido</strong><span>e seguro</span></div>
         </div>
       </div>
     </section>
 
-    <section class="delivery container">
-      <img src="assets/img/delivery-dois-palito.webp" alt="Delivery PLC Nutrition dois palito, pediu chegou" />
-      <div>
-        <p class="eyebrow">Delivery na região</p>
-        <h2>“Dois palito”: pediu, chegou.</h2>
-        <p>Use esse espaço para destacar entregas rápidas, retirada, promoções locais e campanhas da PLC Nutrition em Santos e região.</p>
-        <a class="btn btn-gold" data-whatsapp href="#">Fazer pedido agora</a>
-      </div>
+    <section id="categorias" class="container feature-strip">
+      <div class="feature-item"><strong>Frete grátis</strong><span>Acima de R$ 199,90 para todo o Brasil</span></div>
+      <div class="feature-item"><strong>Compra segura</strong><span>Ambiente 100% seguro e criptografado</span></div>
+      <div class="feature-item"><strong>Envio rápido</strong><span>Postamos em até 24h úteis</span></div>
+      <div class="feature-item"><strong>Qualidade</strong><span>Produtos originais e de alta performance</span></div>
     </section>
 
-    <section class="benefits container">
-      <div>🚚<strong>Frete grátis</strong><small>Acima de R$ 199,90</small></div>
-      <div>🛡️<strong>Compra segura</strong><small>Ambiente protegido</small></div>
-      <div>📦<strong>Envio rápido</strong><small>Postagem em até 24h úteis</small></div>
-      <div>⭐<strong>Qualidade</strong><small>Produtos originais</small></div>
-    </section>
-
-    <section class="social container" id="contato">
-      <article class="social-card instagram"><span>📸</span><h3>Acompanhe no Instagram</h3><p>@plcnutrition</p><a class="btn" target="_blank" href="https://www.instagram.com/plcnutrition/">Seguir</a></article>
-      <article class="social-card whatsapp"><span>🟢</span><h3>Chame no WhatsApp</h3><p>Atendimento rápido e especializado</p><a class="btn" data-whatsapp href="#">Falar agora</a></article>
-      <article class="social-card facebook"><span>f</span><h3>Curta no Facebook</h3><p>/plcnutrition</p><a class="btn" target="_blank" href="https://www.facebook.com/plcnutrition/?locale=pt_BR">Curtir</a></article>
-      <article class="social-card mascot"><img src="assets/img/poster-mascote-morango.webp" alt="Mascote PLC Nutrition" /><div><h3>Energia e sabor</h3><p>Campanhas com personalidade PLC.</p></div></article>
+    <section id="contato" class="container social-strip">
+      <a class="social-card insta" href="https://www.instagram.com/plcnutrition/" target="_blank" rel="noopener">
+        <div class="social-title">Acompanhe nosso Instagram</div>
+        <div class="social-handle">@plcnutrition</div>
+        <span class="mini-btn">Seguir</span>
+      </a>
+      <a class="social-card whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener">
+        <div class="social-title">Precisou de ajuda? Chame no WhatsApp</div>
+        <div class="social-handle">Atendimento rápido e humanizado</div>
+        <span class="mini-btn">Falar agora</span>
+      </a>
+      <a class="social-card facebook" href="https://www.facebook.com/plcnutrition/?locale=pt_BR" target="_blank" rel="noopener">
+        <div class="social-title">Curta nossa página no Facebook</div>
+        <div class="social-handle">/plcnutrition</div>
+        <span class="mini-btn">Curtir</span>
+      </a>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="site-footer">
     <div class="container footer-grid">
-      <div><img class="footer-logo" src="assets/img/logo-plc-circular.webp" alt="PLC Nutrition" /><p>PLC Nutrition é especialista em suplementos alimentares de alta qualidade para quem busca desempenho, saúde e resultados.</p></div>
-      <div><h4>Links rápidos</h4><a href="#topo">Início</a><a href="#produtos">Produtos</a><a href="#promocoes">Promoções</a><a href="#sobre">Sobre nós</a></div>
-      <div><h4>Categorias</h4><a href="#produtos">Whey Protein</a><a href="#produtos">Creatina</a><a href="#produtos">Pré-treino</a><a href="#produtos">Termogênicos</a></div>
-      <div><h4>Atendimento</h4><p>WhatsApp: edite em assets/js/main.js</p><p>E-mail: contato@plcnutrition.com.br</p><p>Seg a Sex: 9h às 18h</p></div>
+      <div>
+        <img class="footer-logo" src="assets/img/logo-round.png" alt="PLC Nutrition">
+        <p>PLC Nutrition é especialista em suplementos alimentares de alta qualidade para quem busca mais desempenho, saúde e resultados.</p>
+      </div>
+      <div>
+        <h4>Links rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#promocoes">Promoções</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categorias</h4>
+        <ul>
+          <li>Whey Protein</li>
+          <li>Creatina</li>
+          <li>Pré-Treino</li>
+          <li>Aminoácidos</li>
+          <li>Vitaminas</li>
+          <li>Acessórios</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Atendimento</h4>
+        <ul>
+          <li>WhatsApp: (11) 99999-9999</li>
+          <li>contato@plcnutrition.com.br</li>
+          <li>Seg a Sex: 8h às 18h</li>
+          <li>Sáb: 8h às 13h</li>
+        </ul>
+      </div>
     </div>
-    <div class="copyright container">© 2026 PLC Nutrition. Todos os direitos reservados. <span>Política de Privacidade | Termos de Uso</span></div>
+    <div class="container footer-bottom">
+      <p>© 2024 PLC Nutrition. Todos os direitos reservados.</p>
+      <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </div>
   </footer>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
