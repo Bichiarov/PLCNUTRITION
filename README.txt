@@ -1,14 +1,20 @@
-PLC NUTRITION - SITE BETA PREMIUM HARDCORE
+PLC NUTRITION - VERSÃO DE PRODUÇÃO
 
 Estrutura:
 - index.html
 - assets/css/styles.css
 - assets/js/main.js
-- assets/img/produtos/
+- assets/img/delivery-dois-palito.webp
+- assets/img/delivery-dois-palito.png
+- assets/img/og-cover.jpg
+- robots.txt
+- _redirects
 
-Observações:
-1. O site usa imagens públicas diretas do produto DIAVEL PLC Nutrition quando disponíveis.
-2. Os produtos TORMENTA e CREATINA estão com placeholders prontos para substituição.
-3. Para usar imagens locais, salve os arquivos em assets/img/produtos/ e altere o atributo src no index.html.
-4. O site é estático e pode ser publicado no GitHub Pages, Netlify, Vercel ou hospedagem convencional.
-5. O WhatsApp usado no projeto está configurado como: 55 13 98822-9261.
+Links configurados:
+- Instagram: https://www.instagram.com/plcnutrition/
+- Facebook: https://www.facebook.com/plcnutrition/?locale=pt_BR
+- WhatsApp: https://wa.me/5513988229261
+
+Atenção:
+Troque o número do WhatsApp no index.html se a PLC Nutrition usar outro número oficial.
+Para substituir imagens de produtos, salve as imagens em assets/img/produtos/ e atualize os cards no index.html.
