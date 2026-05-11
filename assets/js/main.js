@@ -1,10 +1,20 @@
-(function () {
-  const parts = ["55", "13", "99690", "8215"];
-  const phone = parts.join("");
-  const msg = encodeURIComponent("Olá, vim pelo site da PLC Nutrition e gostaria de fazer um pedido.");
-  const url = `https://wa.me/${phone}?text=${msg}`;
+document.addEventListener('DOMContentLoaded', function () {
+  var year = document.getElementById('current-year');
+  if (year) year.textContent = new Date().getFullYear();
 
-  document.querySelectorAll(".js-whatsapp").forEach((el) => {
-    el.setAttribute("href", url);
-  });
-})();
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.main-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+});
